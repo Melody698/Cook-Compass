@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c2e3f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 80px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-height: 90vh;
+  overflow-y: auto;
+  margin-top: 80px; /* Add margin to prevent content from overlapping the navbar */
+}
+
+.navbar {
+  position: fixed; /* Make the navbar fixed */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays above other elements */
+}
+
+.header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #3a3a3a;
+}
+
+.recipe-image {
+  width: 100%;
+  border-radius: 10px;
+  height: 500px;
+}
+
+.recipe-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.ingredients {
+  background-color: #9577ff;
+  padding: 35px;
+  border-radius: 7px;
+  margin-top: 15px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.instructions {
+  background-color: #a8e6f2;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.instructions ol {
+  padding-left: 20px;
+}
+
+.instructions li {
+  margin-bottom: 10px;
+}
+
+.step-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}

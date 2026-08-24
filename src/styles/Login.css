@@ -1,0 +1,66 @@
+/* Center the login box */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #001f3f;
+  }
+  
+  /* Login box styles */
+  .login-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  /* App Header (Logo + Title) */
+  .app-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .app-logo {
+    width: 40px; /* Adjust the size of the logo */
+    height: 40px;
+    margin-right: 10px; /* Space between the logo and title */
+  }
+  
+  .app-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #001f3f;
+  }
+  
+  /* Input field styles */
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Login button styles */
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }

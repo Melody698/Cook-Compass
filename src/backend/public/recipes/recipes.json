@@ -1,0 +1,827 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Beef and Rice Stuffed Bell Peppers",
+      "description": "Delicious and savory bell peppers stuffed with seasoned beef, onion, garlic, and rice.",
+      "ingredients": [
+        "Beef",
+        "Onion",
+        "Garlic",
+        "Rice",
+        "Bell Peppers"
+      ],
+      "instructions": [
+        "Preheat the oven to 375°F (190°C).",
+        "Cut the tops off the bell peppers and remove the seeds and membranes.",
+        "In a skillet, cook the beef, onion, and garlic until browned. Add cooked rice to the mixture.",
+        "Fill each bell pepper with the beef and rice mixture.",
+        "Place the stuffed bell peppers in a baking dish and cover with foil.",
+        "Bake for 25-30 minutes until the peppers are tender.",
+        "Serve hot and enjoy!"
+      ],
+      "labels": [
+        "Dinner",
+        "Oven-Baked",
+        "Proteins",
+        "Vegetables"
+      ],
+      "filterDictionary": {
+        "Dietary Preferences": {
+          "Vegetarian": false,
+          "Vegan": false,
+          "Gluten-Free": false,
+          "Dairy-Free": false,
+          "High-Protein": false,
+          "Low-Carb": false
+        },
+        "Cuisine Type": {
+          "Italian": false,
+          "Mexican": false,
+          "Asian": false,
+          "Mediterranean": false,
+          "American": false
+        },
+        "Cooking Time": {
+          "Under 15 minutes": false,
+          "15-30 minutes": false,
+          "30-60 minutes": true,
+          "Over 60 minutes": false
+        },
+        "Meal Type": {
+          "Breakfast": false,
+          "Lunch": false,
+          "Dinner": true,
+          "Snacks": false
+        },
+        "Cooking Method": {
+          "Stovetop": false,
+          "Oven-Baked": true,
+          "Grilled": false,
+          "Slow Cooker": false
+        },
+        "Allergen Filters": {
+          "Dairy-Free": false,
+          "Nut-Free": false,
+          "Egg-Free": false,
+          "Gluten-Free": false
+        },
+        "Category Filters": {
+          "Vegetables": true,
+          "Proteins": true,
+          "Dairy": false,
+          "Grains": true,
+          "Fruits": false,
+          "Herbs & Spices": false
+        },
+        "Ingredient-Specific Filters": {
+          "Tomato": false,
+          "Onion": true,
+          "Garlic": true,
+          "Spinach": false,
+          "Mushroom": false,
+          "Chicken": false,
+          "Beef": true,
+          "Eggs": false,
+          "Tofu": false,
+          "Cheese": false,
+          "Milk": false,
+          "Butter": false,
+          "Yogurt": false,
+          "Rice": true,
+          "Quinoa": false,
+          "Bread": false,
+          "Pasta": false,
+          "Apple": false,
+          "Banana": false,
+          "Orange": false,
+          "Lemon": false,
+          "Basil": false,
+          "Cilantro": false,
+          "Rosemary": false,
+          "Oregano": false
+        }
+      },
+      "image": "https://via.placeholder.com/300",
+      "calories": 450,
+      "protein": 25,
+      "carbs": 45,
+      "fats": 18
+    },
+    {
+      "id": 2,
+      "name": "Beef and Rice Stir Fry",
+      "description": "A delicious and savory beef and rice stir fry that is perfect for a quick and easy weeknight meal.",
+      "ingredients": [
+        "Beef",
+        "Onion",
+        "Garlic",
+        "Rice"
+      ],
+      "instructions": [
+        "Cook the rice according to package instructions.",
+        "In a large skillet, heat some oil over medium-high heat.",
+        "Add diced onion and minced garlic, sauté until fragrant.",
+        "Add thinly sliced beef strips, cook until browned.",
+        "Mix in the cooked rice and stir well to combine.",
+        "Season with soy sauce, salt, and pepper to taste.",
+        "Serve hot and enjoy!"
+      ],
+      "labels": [
+        "Dinner",
+        "Stovetop"
+      ],
+      "filterDictionary": {
+        "Dietary Preferences": {
+          "Vegetarian": false,
+          "Vegan": false,
+          "Gluten-Free": false,
+          "Dairy-Free": false,
+          "High-Protein": false,
+          "Low-Carb": false
+        },
+        "Cuisine Type": {
+          "Italian": false,
+          "Mexican": false,
+          "Asian": true,
+          "Mediterranean": false,
+          "American": false
+        },
+        "Cooking Time": {
+          "Under 15 minutes": false,
+          "15-30 minutes": true,
+          "30-60 minutes": false,
+          "Over 60 minutes": false
+        },
+        "Meal Type": {
+          "Breakfast": false,
+          "Lunch": false,
+          "Dinner": true,
+          "Snacks": false
+        },
+        "Cooking Method": {
+          "Stovetop": true,
+          "Oven-Baked": false,
+          "Grilled": false,
+          "Slow Cooker": false
+        },
+        "Allergen Filters": {
+          "Dairy-Free": false,
+          "Nut-Free": false,
+          "Egg-Free": false,
+          "Gluten-Free": false
+        },
+        "Category Filters": {
+          "Vegetables": false,
+          "Proteins": true,
+          "Dairy": false,
+          "Grains": true,
+          "Fruits": false,
+          "Herbs & Spices": true
+        },
+        "Ingredient-Specific Filters": {
+          "Tomato": false,
+          "Onion": true,
+          "Garlic": true,
+          "Spinach": false,
+          "Mushroom": false,
+          "Chicken": false,
+          "Beef": true,
+          "Eggs": false,
+          "Tofu": false,
+          "Cheese": false,
+          "Milk": false,
+          "Butter": false,
+          "Yogurt": false,
+          "Rice": true,
+          "Quinoa": false,
+          "Bread": false,
+          "Pasta": false,
+          "Apple": false,
+          "Banana": false,
+          "Orange": false,
+          "Lemon": false,
+          "Basil": false,
+          "Cilantro": false,
+          "Rosemary": false,
+          "Oregano": false
+        }
+      },
+      "image": "https://via.placeholder.com/300",
+      "calories": 720,
+      "protein": 33,
+      "carbs": 68,
+      "fats": 33
+    },
+    {
+      "id": 3,
+      "name": "Garlic Beef Rice Bowl",
+      "description": "A delicious and flavorful rice bowl with seasoned beef, caramelized onions, and garlic",
+      "ingredients": [
+        "Beef",
+        "Onion",
+        "Garlic",
+        "Rice"
+      ],
+      "instructions": [
+        "Cook rice according to package instructions.",
+        "In a skillet, heat some oil over medium-high heat.",
+        "Add sliced onions and cook until caramelized, then remove from skillet.",
+        "In the same skillet, add thinly sliced beef and minced garlic, cook until beef is browned.",
+        "Assemble the rice bowl by placing rice at the bottom, topping with beef and garlic mixture, and finishing with caramelized onions.",
+        "Serve hot and enjoy!"
+      ],
+      "labels": [
+        "Dinner",
+        "Stovetop"
+      ],
+      "filterDictionary": {
+        "Dietary Preferences": false,
+        "Vegetarian": false,
+        "Vegan": false,
+        "Gluten-Free": false,
+        "Dairy-Free": false,
+        "High-Protein": false,
+        "Low-Carb": false,
+        "Cuisine Type": false,
+        "Italian": false,
+        "Mexican": false,
+        "Asian": false,
+        "Mediterranean": false,
+        "American": false,
+        "Cooking Time": false,
+        "Under 15 minutes": false,
+        "15-30 minutes": false,
+        "30-60 minutes": false,
+        "Over 60 minutes": false,
+        "Meal Type": false,
+        "Breakfast": false,
+        "Lunch": false,
+        "Snacks": false,
+        "Cooking Method": false,
+        "Stovetop": true,
+        "Oven-Baked": false,
+        "Grilled": false,
+        "Slow Cooker": false,
+        "Allergen Filters": false,
+        "Nut-Free": false,
+        "Egg-Free": false,
+        "Category Filters": false,
+        "Vegetables": false,
+        "Proteins": false,
+        "Dairy": false,
+        "Grains": false,
+        "Fruits": false,
+        "Herbs & Spices": false,
+        "Ingredient-Specific Filters": true,
+        "Tomato": false,
+        "Onion": true,
+        "Garlic": true,
+        "Spinach": false,
+        "Mushroom": false,
+        "Chicken": false,
+        "Beef": true,
+        "Eggs": false,
+        "Tofu": false,
+        "Cheese": false,
+        "Milk": false,
+        "Butter": false,
+        "Yogurt": false,
+        "Rice": true,
+        "Quinoa": false,
+        "Bread": false,
+        "Pasta": false,
+        "Apple": false,
+        "Banana": false,
+        "Orange": false,
+        "Lemon": false,
+        "Basil": false,
+        "Cilantro": false,
+        "Rosemary": false,
+        "Oregano": false
+      },
+      "image": "https://via.placeholder.com/300",
+      "calories": 620,
+      "protein": 32,
+      "carbs": 65,
+      "fats": 24
+    },
+    {
+      "id": 4,
+      "name": "Beef and Rice Stuffed Cabbage Rolls",
+      "description": "Delicious and savory beef and rice mixture rolled in tender cabbage leaves.",
+      "ingredients": [
+        "Beef",
+        "Onion",
+        "Garlic",
+        "Rice",
+        "Cabbage"
+      ],
+      "instructions": [
+        "Boil cabbage leaves until tender. Drain and set aside.",
+        "In a skillet, cook beef, onion, and garlic until beef is browned and onions are translucent.",
+        "Mix cooked rice into the beef mixture.",
+        "Place a spoonful of the beef and rice mixture onto each cabbage leaf and roll.",
+        "Arrange the cabbage rolls in a baking dish.",
+        "Cover with tomato sauce and bake in the oven until heated through.",
+        "Serve hot and enjoy!"
+      ],
+      "labels": [
+        "Beef",
+        "Onion",
+        "Garlic",
+        "Rice",
+        "Dinner",
+        "Oven-Baked",
+        "Vegetables"
+      ],
+      "filterDictionary": {
+        "Dietary Preferences": {
+          "Vegetarian": false,
+          "Vegan": false,
+          "Gluten-Free": false,
+          "Dairy-Free": false,
+          "High-Protein": false,
+          "Low-Carb": false
+        },
+        "Cuisine Type": {
+          "Italian": false,
+          "Mexican": false,
+          "Asian": false,
+          "Mediterranean": false,
+          "American": true
+        },
+        "Cooking Time": {
+          "Under 15 minutes": false,
+          "15-30 minutes": false,
+          "30-60 minutes": false,
+          "Over 60 minutes": true
+        },
+        "Meal Type": {
+          "Breakfast": false,
+          "Lunch": false,
+          "Dinner": true,
+          "Snacks": false
+        },
+        "Cooking Method": {
+          "Stovetop": false,
+          "Oven-Baked": true,
+          "Grilled": false,
+          "Slow Cooker": false
+        },
+        "Allergen Filters": {
+          "Dairy-Free": false,
+          "Nut-Free": false,
+          "Egg-Free": false,
+          "Gluten-Free": false
+        },
+        "Category Filters": {
+          "Vegetables": true,
+          "Proteins": true,
+          "Dairy": false,
+          "Grains": false,
+          "Fruits": false,
+          "Herbs & Spices": false
+        },
+        "Ingredient-Specific Filters": {
+          "Tomato": true,
+          "Onion": true,
+          "Garlic": true,
+          "Spinach": false,
+          "Mushroom": false,
+          "Chicken": false,
+          "Beef": true,
+          "Eggs": false,
+          "Tofu": false,
+          "Cheese": false,
+          "Milk": false,
+          "Butter": false,
+          "Yogurt": false,
+          "Rice": true,
+          "Quinoa": false,
+          "Bread": false,
+          "Pasta": false,
+          "Apple": false,
+          "Banana": false,
+          "Orange": false,
+          "Lemon": false,
+          "Basil": false,
+          "Cilantro": false,
+          "Rosemary": false,
+          "Oregano": false
+        }
+      },
+      "image": "https://via.placeholder.com/300",
+      "calories": 380,
+      "protein": 24,
+      "carbs": 30,
+      "fats": 16
+    },
+    {
+      "id": 5,
+      "name": "Beef and Rice Skillet",
+      "description": "A flavorful and hearty one-pan meal with tender beef, onions, garlic, and rice.",
+      "ingredients": [
+        "Beef",
+        "Onion",
+        "Garlic",
+        "Rice"
+      ],
+      "instructions": [
+        "In a large skillet, cook ground beef over medium heat until browned.",
+        "Add chopped onions and minced garlic to the skillet, cook until onions are soft.",
+        "Stir in uncooked rice and cook for 1-2 minutes to toast the rice.",
+        "Pour in beef broth and bring to a boil. Reduce heat, cover, and simmer for 15-20 minutes or until rice is cooked.",
+        "Serve hot and enjoy!"
+      ],
+      "labels": [
+        "Dinner",
+        "Stovetop"
+      ],
+      "filterDictionary": {
+        "Dietary Preferences": {
+          "Vegetarian": false,
+          "Vegan": false,
+          "Gluten-Free": false,
+          "Dairy-Free": false,
+          "High-Protein": false,
+          "Low-Carb": false
+        },
+        "Cuisine Type": {
+          "Italian": false,
+          "Mexican": false,
+          "Asian": false,
+          "Mediterranean": false,
+          "American": false
+        },
+        "Cooking Time": {
+          "Under 15 minutes": false,
+          "15-30 minutes": true,
+          "30-60 minutes": false,
+          "Over 60 minutes": false
+        },
+        "Meal Type": {
+          "Breakfast": false,
+          "Lunch": false,
+          "Dinner": true,
+          "Snacks": false
+        },
+        "Cooking Method": {
+          "Stovetop": true,
+          "Oven-Baked": false,
+          "Grilled": false,
+          "Slow Cooker": false
+        },
+        "Allergen Filters": {
+          "Dairy-Free": false,
+          "Nut-Free": false,
+          "Egg-Free": false,
+          "Gluten-Free": false
+        },
+        "Category Filters": {
+          "Vegetables": false,
+          "Proteins": true,
+          "Dairy": false,
+          "Grains": true,
+          "Fruits": false,
+          "Herbs & Spices": false
+        },
+        "Ingredient-Specific Filters": {
+          "Tomato": false,
+          "Onion": true,
+          "Garlic": true,
+          "Spinach": false,
+          "Mushroom": false,
+          "Chicken": false,
+          "Beef": true,
+          "Eggs": false,
+          "Tofu": false,
+          "Cheese": false,
+          "Milk": false,
+          "Butter": false,
+          "Yogurt": false,
+          "Rice": true,
+          "Quinoa": false,
+          "Bread": false,
+          "Pasta": false,
+          "Apple": false,
+          "Banana": false,
+          "Orange": false,
+          "Lemon": false,
+          "Basil": false,
+          "Cilantro": false,
+          "Rosemary": false,
+          "Oregano": false
+        }
+      },
+      "image": "https://via.placeholder.com/300",
+      "calories": 498,
+      "protein": 29,
+      "carbs": 50,
+      "fats": 19
+    },
+    {
+      "id": 6,
+      "name": "Beef and Rice Burrito Bowl",
+      "description": "A flavorful and satisfying beef and rice burrito bowl with a mix of fresh ingredients.",
+      "ingredients": [
+        "Beef",
+        "Onion",
+        "Garlic",
+        "Rice",
+        "Bell Pepper",
+        "Black Beans",
+        "Corn",
+        "Tomato",
+        "Lettuce",
+        "Avocado",
+        "Sour Cream",
+        "Cheese"
+      ],
+      "instructions": [
+        "Cook rice according to package instructions.",
+        "In a skillet, cook beef until browned. Add onion, garlic, bell pepper, black beans, and corn. Cook until vegetables are tender.",
+        "Assemble the burrito bowl with rice at the bottom, followed by the beef and vegetable mixture, tomato, lettuce, avocado, sour cream, and cheese.",
+        "Enjoy hot or cold!"
+      ],
+      "labels": [
+        "Mexican",
+        "Dinner",
+        "Stovetop"
+      ],
+      "filterDictionary": {
+        "Dietary Preferences": false,
+        "Vegetarian": false,
+        "Vegan": false,
+        "Gluten-Free": false,
+        "Dairy-Free": false,
+        "High-Protein": false,
+        "Low-Carb": false,
+        "Cuisine Type": true,
+        "Italian": false,
+        "Mexican": true,
+        "Asian": false,
+        "Mediterranean": false,
+        "American": false,
+        "Cooking Time": false,
+        "Under 15 minutes": false,
+        "15-30 minutes": false,
+        "30-60 minutes": false,
+        "Over 60 minutes": false,
+        "Meal Type": false,
+        "Breakfast": false,
+        "Lunch": false,
+        "Dinner": true,
+        "Snacks": false,
+        "Cooking Method": true,
+        "Stovetop": true,
+        "Oven-Baked": false,
+        "Grilled": false,
+        "Slow Cooker": false,
+        "Allergen Filters": false,
+        "Nut-Free": false,
+        "Egg-Free": false,
+        "Category Filters": false,
+        "Vegetables": true,
+        "Proteins": false,
+        "Dairy": false,
+        "Grains": false,
+        "Fruits": false,
+        "Herbs & Spices": false,
+        "Ingredient-Specific Filters": true,
+        "Tomato": true,
+        "Onion": true,
+        "Garlic": true,
+        "Spinach": false,
+        "Mushroom": false,
+        "Chicken": false,
+        "Beef": true,
+        "Eggs": false,
+        "Tofu": false,
+        "Cheese": true,
+        "Milk": false,
+        "Butter": false,
+        "Yogurt": false,
+        "Rice": true,
+        "Quinoa": false,
+        "Bread": false,
+        "Pasta": false,
+        "Apple": false,
+        "Banana": false,
+        "Orange": false,
+        "Lemon": false,
+        "Basil": false,
+        "Cilantro": false,
+        "Rosemary": false,
+        "Oregano": false
+      },
+      "image": "https://via.placeholder.com/300",
+      "calories": 760,
+      "protein": 35,
+      "carbs": 70,
+      "fats": 36
+    },
+    {
+      "id": 7,
+      "name": "Beef and Rice Stuffed Zucchini",
+      "description": "Delicious and healthy stuffed zucchini with a flavorful beef and rice filling.",
+      "ingredients": [
+        "Beef",
+        "Onion",
+        "Garlic",
+        "Rice",
+        "Zucchini"
+      ],
+      "instructions": [
+        "Preheat the oven to 375°F (190°C).",
+        "Cut the zucchinis in half lengthwise and scoop out the seeds to create a hollow center.",
+        "In a skillet, cook the beef, onion, and garlic until the beef is browned and the onion is translucent.",
+        "Add cooked rice to the beef mixture and stir to combine.",
+        "Fill each zucchini half with the beef and rice mixture.",
+        "Place the stuffed zucchinis on a baking sheet and bake for 25-30 minutes until the zucchinis are tender.",
+        "Serve hot and enjoy!"
+      ],
+      "labels": [
+        "Dairy-Free",
+        "Stovetop",
+        "Oven-Baked",
+        "Vegetables",
+        "Proteins"
+      ],
+      "filterDictionary": {
+        "Dietary Preferences": false,
+        "Vegetarian": false,
+        "Vegan": false,
+        "Gluten-Free": false,
+        "Dairy-Free": true,
+        "High-Protein": true,
+        "Low-Carb": false,
+        "Cuisine Type": false,
+        "Italian": false,
+        "Mexican": false,
+        "Asian": false,
+        "Mediterranean": false,
+        "American": false,
+        "Cooking Time": false,
+        "Under 15 minutes": false,
+        "15-30 minutes": false,
+        "30-60 minutes": false,
+        "Over 60 minutes": false,
+        "Meal Type": false,
+        "Breakfast": false,
+        "Lunch": false,
+        "Dinner": false,
+        "Snacks": false,
+        "Cooking Method": true,
+        "Stovetop": true,
+        "Oven-Baked": true,
+        "Grilled": false,
+        "Slow Cooker": false,
+        "Allergen Filters": false,
+        "Nut-Free": false,
+        "Egg-Free": false,
+        "Category Filters": true,
+        "Vegetables": true,
+        "Proteins": true,
+        "Dairy": false,
+        "Grains": false,
+        "Fruits": false,
+        "Herbs & Spices": false,
+        "Ingredient-Specific Filters": true,
+        "Tomato": false,
+        "Onion": true,
+        "Garlic": true,
+        "Spinach": false,
+        "Mushroom": false,
+        "Chicken": false,
+        "Beef": true,
+        "Eggs": false,
+        "Tofu": false,
+        "Cheese": false,
+        "Milk": false,
+        "Butter": false,
+        "Yogurt": false,
+        "Rice": true,
+        "Quinoa": false,
+        "Bread": false,
+        "Pasta": false,
+        "Apple": false,
+        "Banana": false,
+        "Orange": false,
+        "Lemon": false,
+        "Basil": false,
+        "Cilantro": false,
+        "Rosemary": false,
+        "Oregano": false
+      },
+      "image": "https://via.placeholder.com/300",
+      "calories": 475,
+      "protein": 25,
+      "carbs": 35,
+      "fats": 26
+    },
+    {
+      "id": 8,
+      "name": "Beef and Rice Meatballs with Onion and Garlic",
+      "description": "Juicy beef meatballs mixed with fragrant onions and garlic, served with a side of rice.",
+      "ingredients": [
+        "Beef",
+        "Onion",
+        "Garlic",
+        "Rice"
+      ],
+      "instructions": [
+        "In a bowl, mix ground beef with finely chopped onions and minced garlic.",
+        "Form the mixture into small meatballs and place them on a baking sheet.",
+        "Bake in the oven at 375°F for 20 minutes or until cooked through.",
+        "Meanwhile, cook rice according to package instructions.",
+        "Serve the beef meatballs over a bed of rice and enjoy!"
+      ],
+      "labels": [
+        "Dinner",
+        "Oven-Baked"
+      ],
+      "filterDictionary": {
+        "Dietary Preferences": {
+          "Vegetarian": false,
+          "Vegan": false,
+          "Gluten-Free": false,
+          "Dairy-Free": false,
+          "High-Protein": false,
+          "Low-Carb": false
+        },
+        "Cuisine Type": {
+          "Italian": false,
+          "Mexican": false,
+          "Asian": false,
+          "Mediterranean": false,
+          "American": false
+        },
+        "Cooking Time": {
+          "Under 15 minutes": false,
+          "15-30 minutes": false,
+          "30-60 minutes": true,
+          "Over 60 minutes": false
+        },
+        "Meal Type": {
+          "Breakfast": false,
+          "Lunch": false,
+          "Dinner": true,
+          "Snacks": false
+        },
+        "Cooking Method": {
+          "Stovetop": false,
+          "Oven-Baked": true,
+          "Grilled": false,
+          "Slow Cooker": false
+        },
+        "Allergen Filters": {
+          "Dairy-Free": false,
+          "Nut-Free": false,
+          "Egg-Free": false,
+          "Gluten-Free": false
+        },
+        "Category Filters": {
+          "Vegetables": false,
+          "Proteins": true,
+          "Dairy": false,
+          "Grains": true,
+          "Fruits": false,
+          "Herbs & Spices": false
+        },
+        "Ingredient-Specific Filters": {
+          "Tomato": false,
+          "Onion": true,
+          "Garlic": true,
+          "Spinach": false,
+          "Mushroom": false,
+          "Chicken": false,
+          "Beef": true,
+          "Eggs": false,
+          "Tofu": false,
+          "Cheese": false,
+          "Milk": false,
+          "Butter": false,
+          "Yogurt": false,
+          "Rice": true,
+          "Quinoa": false,
+          "Bread": false,
+          "Pasta": false,
+          "Apple": false,
+          "Banana": false,
+          "Orange": false,
+          "Lemon": false,
+          "Basil": false,
+          "Cilantro": false,
+          "Rosemary": false,
+          "Oregano": false
+        }
+      },
+      "image": "https://via.placeholder.com/300",
+      "calories": 782,
+      "protein": 42,
+      "carbs": 58,
+      "fats": 41
+    }
+  ]
+}

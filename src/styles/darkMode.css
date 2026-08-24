@@ -1,0 +1,35 @@
+/* darkMode.css */
+
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 3.0s ease, color 3.0s ease;
+  }
+  
+  /* Override common components */
+  
+  .nav-button.dark {
+    background-color: #444 !important;
+    color: #fff !important;
+  }
+  
+  .nav-button.dark:hover {
+    background-color: #666 !important;
+  }
+  
+  .recipe-card.dark {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  .recipe-section.dark {
+    background-color: #2c2c2c;
+    color: #f1f1f1;
+  }
+  

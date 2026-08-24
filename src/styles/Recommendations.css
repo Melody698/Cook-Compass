@@ -1,0 +1,237 @@
+.recommendations-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: 80vh;
+  }
+  
+.recommendations-container > h1 {
+  font-size: 28px;
+  color: #000000;
+}
+  
+  .recommendations-container p {
+    font-size: 18px;
+    color: #34495e;
+    margin-bottom: 20px;
+  }
+  
+  /* Recipe Grid */
+  .recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  /* Recipe Card */
+  .recipe-card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .recipe-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .recipe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .view-recipe-button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-recipe-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Like/Dislike Buttons */
+.button-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.liked {
+  background-color: #4caf50;
+  color: white;
+}
+
+button.disliked {
+  background-color: #f44336;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Dismiss Button */
+.dismiss-button {
+  background-color: #888;
+  color: white;
+}
+
+.dismiss-button:hover {
+  background-color: #555;
+}
+
+/* Modal */
+.recipe-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+  text-align: left;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.modal-content p {
+  font-size: 18px;
+  color: #34495e;
+}
+
+.close-modal {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.close-modal:hover {
+  background-color: #0056b3;
+}
+
+.modal-content ul {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.modal-content li {
+  margin-bottom: 10px;
+}
+
+/* Styles for the new category filter dropdown */
+.filter-dropdown {
+  width: 200px;
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  background-color: white;
+  color: #333;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 16px; /* Space between dropdown and recipes */
+}
+
+.filter-dropdown:hover {
+  border-color: #0056b3;
+}
+
+.loader {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 2rem;
+  color: #555;
+}
+
+/* Dark mode overrides */
+
+body.dark-mode .recommendations-container {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+/* Ensure all inner text is white */
+body.dark-mode .recommendations-container * {
+  color: #ffffff !important;
+}
+
+body.dark-mode .recipe-card {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+}
+
+body.dark-mode .recipe-card h3 {
+  color: #ffffff;
+}
+
+body.dark-mode .filter-dropdown {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border: 1px solid #555;
+}
+
+body.dark-mode .button-container button,
+body.dark-mode .view-recipe-button,
+body.dark-mode .dismiss-button {
+  background-color: #333;
+  color: #ffffff;
+  border: 1px solid #555;
+}
+
+body.dark-mode .button-container button:hover,
+body.dark-mode .view-recipe-button:hover,
+body.dark-mode .dismiss-button:hover {
+  background-color: #444;
+}
+
+body.dark-mode .recipe-modal .modal-content {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #555;
+}
+
+/* In case of links (if any) */
+body.dark-mode a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
