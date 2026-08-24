@@ -10,9 +10,6 @@ Team Members:
 
     Ethan Bogart
 
-> Outline a brief description of your project.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
-
 ![GrocerU Logo](src/assets/logo.jpg)
 
 ## Table of Contents
