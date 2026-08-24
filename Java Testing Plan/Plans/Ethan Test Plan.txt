@@ -1,0 +1,35 @@
+Filters.test.js:
+-Renders the correct tabs for positive and negative filters.
+-Allows toggling of chips for each filter category.
+-Calls handleSelectFilterChange with the correct category, values, and intent.
+-Opens and closes the Exclusions drawer correctly.
+-Highlights selected filters using correct Chip styling.
+
+RecipeList.test.js:
+-Loads recipes from localStorage on mount.
+-Displays loading spinner when fetching recipes.
+-Calls fetchRecipes with the correct ingredient and filter payload.
+-Stores recipes in localStorage after fetch.
+-Displays RecipeCard components when recipes are returned.
+-Shows message if no recipes are returned or no ingredients selected.
+
+server.test.js (API routes using Supertest):
+-POST /api/users:
+  - Creates a new user with valid credentials.
+  - Returns status 201 and a success message.
+-POST /api/login:
+  - Logs in the user with valid credentials.
+  - Returns status 200 and a success message.
+  - Saves the user ID for subsequent tests.
+-GET /api/users/:id:
+  - Fetches the user profile using the saved user ID.
+  - Returns status 200 and the correct user email.
+-GET /api/recipes:
+  - Fetches recipes from the database.
+  - Returns status 200 and a success message.
+-GET /api/recommendations:
+  - Mocks the recommendations endpoint.
+  - Returns status 200 and a list of recipes with correct structure.
+-DELETE /api/users/:id:
+  - Deletes the user using the saved user ID.
+  - Returns status 200 and a success message.

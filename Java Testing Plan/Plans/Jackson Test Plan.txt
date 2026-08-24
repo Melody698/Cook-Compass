@@ -1,0 +1,23 @@
+For the Sprint Assignment 16 I am going to implement and test 4 test cases.
+
+GenInstructions.test.js
+    - Test the Display of the page
+    - Test the functionality of the StepByStep Page button
+    - Test the invalid recipe id case
+
+GenStepByStep.test.js
+    - Test the Display of the page
+    - Test the functionality of the Instructions Page button
+    - Test the Next Step and Previous Step Buttons
+    - Test the Alarm useEffect, and the Reset, Pause, and Start Alarm buttons
+
+RecInstructions.test.js
+    - Test the Display of the page
+    - Test the functionality of the StepByStep Page button
+    - Test the invalid recipe id case
+
+RecStepByStep.test.js
+    - Test the Display of the page
+    - Test the functionality of the Instructions Page button
+    - Test the Next Step and Previous Step Buttons
+    - Test the Alarm useEffect, and the Reset, Pause, and Start Alarm buttons

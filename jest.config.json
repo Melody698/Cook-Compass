@@ -1,0 +1,18 @@
+{
+  "testEnvironment": "jsdom",
+  "moduleDirectories": ["node_modules", "src"],
+  "setupFilesAfterEnv": ["<rootDir>/src/setupTests.js"],
+  "reporters": [
+    "default",
+    ["./node_modules/jest-html-reporter", {
+      "pageTitle": "Test Report",
+      "outputPath": "test-report.html",
+      "includeFailureMsg": true,
+      "includeConsoleLog": true
+    }]
+  ],
+  "moduleNameMapper": {
+    "\\.(css|less|scss|sass|wav)$": "identity-obj-proxy",
+    "\\.(jpg|jpeg|png|gif|svg)$": "<rootDir>/__mocks__/fileMock.js"
+  }
+}

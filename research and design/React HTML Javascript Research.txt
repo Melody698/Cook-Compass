@@ -1,0 +1,59 @@
+Websites Used:
+https://www.w3schools.com/html/
+https://www.w3schools.com/js/default.asp
+https://react.dev/learn
+https://developer.mozilla.org/en-US/
+
+To Start the app:
+'npm start' in the terminal
+
+HTML:
+<div> - Divides the layout, is used to help group elements together
+<div style={____}> Can be used to change background color, text color, and Padding
+You can either define the types inside the style, or use an outside variable to define them.
+<h1> - Defines the heading. Goes from h1 to h6, h1 being the largest and h6 being the smallest
+<p> - Defines text paragraphs
+<a> - Used to create clickable links. Can be used for either internal or external links
+<section> - Groups content together
+<img> - Displays an Image on the page
+<ul> - Creates an unordered list, or bullet point. <li> is used inside to differentiate between items
+<form> - Collects User Input
+
+
+React Component Names start with Capital Letters, while HTML tags are in lowercase
+You can use Curly Brackets {} to insert javascript variables in JSX
+
+App.js is the base of the React App, pages and components can be used to display from the App
+
+function represents a piece of the UI and can be used to display onto the react website
+example:
+
+function Greeting() {
+  return <h1>Hello, React!</h1>;
+}
+
+export default Greeting;
+
+//
+
+import Greeting from "./Greeting";
+
+function App() {
+  return (
+    <div>
+      <Greeting />
+      <p>Welcome to my website!</p>
+    </div>
+  );
+}
+
+export default App;
+
+Conditional Rendering can be done to separate an admin side of the website from a user side using an if else statement
+On click events can be used to lead to new pages or events on Page
+
+You can import components from other files in order to abide by SRP
+An Example of the proper pathing is:
+import (componentName) from 'filePath'
+
+HTML doesn't always work directly into JSX, and in order to have it work it may be nessesary use a Converter (https://transform.tools/html-to-jsx)

@@ -1,0 +1,34 @@
+For Sprint Assignment 16, I am going to implement and test the following 3 test files. Each will target a specific component or feature of the application.
+
+RecipeCard.test.js
+-Renders the recipe card with title, description, and image.
+
+-Displays both “View” and “Save” buttons.
+
+-Calls navigate to /gen-instructions/:id when “View” is clicked.
+
+-Receives and displays props from parent (recipe object).
+
+-Ensures component renders properly without optional image field.
+
+RecipeIndex.test.js
+-Renders the “All Recipes” and “Saved Recipes” tabs.
+
+-Switches between tabs and updates visible recipes accordingly.
+
+-Filters recipes by cuisine and updates display.
+
+-Handles the save function correctly and avoids duplicate saved recipes.
+
+-Displays fallback message when no recipes match selected filters.
+
+Home.test.js
+-Renders ingredient and filter selection sections.
+
+-Updates selectedIngredients state when user makes selections.
+
+-Updates positiveFilters and negativeFilters when pills are selected.
+
+-Combines all selected data and passes it to RecipeList correctly.
+
+-Handles custom ingredients input and adds them to the ingredient list.

@@ -1,0 +1,28 @@
+For the Sprint Assignment 16, I am going to implement and test 
+the following 3 test files. Each will target a specific component 
+or feature of the application.
+
+Login.test.js:
+- Renders the login form with input fields (email, password) and action buttons.
+- Handles input updates for both fields.
+- Displays an error message if fields are left empty.
+- Mocks API call for user login.
+- Stores user details in sessionStorage and navigates to home on successful login.
+- Displays an error message if login fails.
+- Navigates to the Create User page when the create profile button is clicked.
+
+CreateUser.test.js:
+- Renders the user creation form with all input fields (name, email, password, confirm password).
+- Handles user input updates for each field.
+- Displays alerts for form validation errors (empty fields, short password, password mismatch).
+- Mocks API call to create a new user.
+- Displays alert and redirects to login page on successful user creation.
+- Displays alert if user creation fails (e.g., user already exists).
+
+UserProfile.test.js:
+- Renders user profile form with fetched user data (name, email).
+- Handles user input updates for name and password fields.
+- Displays alert if name is empty when updating.
+- Mocks API call to update profile and displays success alert.
+- Mocks API call to delete account after user confirmation.
+- Displays alert and navigates to login page after successful account deletion.
